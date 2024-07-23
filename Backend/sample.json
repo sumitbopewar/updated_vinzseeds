@@ -1,0 +1,15 @@
+{
+    "product": {
+      "productName": "Sample Product",
+      "price": 100,
+      "description": "Sample product description",
+      "catImg": "http://example.com/image.jpg",
+      "productImages": ["http://example.com/image1.jpg", "http://example.com/image2.jpg"],
+      "rating": 4.5,
+      "reviews": []
+    },
+    "quantity": 2,
+    "weight": "50g",
+    "color": "Red"
+  }
+  

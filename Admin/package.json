@@ -1,0 +1,28 @@
+{
+  "name": "backend2",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start:frontend": "cd frontend && npm start",
+    "start:backend": "cd backend && node server.js",
+    "start:admin": "cd admin && npm start",
+    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\" \"npm run start:admin\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.4",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.4"
+  }
+}

@@ -1,0 +1,26 @@
+.header {
+    font-family: 'Josefin Slab', serif;
+    /* font-family: Outfit, sans-serif !important; */
+}
+.terms {
+    font-size: 42px;
+    text-transform: uppercase;
+    padding-top: 4px;
+}
+.text-center {
+    text-align: center !important;
+}
+
+.heading {
+    font-weight: bold;
+}
+.h6, h6 {
+    font-size: 1rem;
+}
+
+.para {
+    text-align: justify;
+}
+.terms:hover {
+    color: #28a745;
+}
